@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color:rgb(0 56 86);
+        color: white;
+         
+    }
+    header h1,p{
+        text-align: center;
+
+    }
+  
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        text-align: center;
+        padding: 50px;
+    }
+    /* #about p{
+        font-size: 25px;
+    } */
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .skills img{
+         width: 120px;
+         height: 120px;
+    }
+    .projets{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .project-item{
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        /* text-align: center; */
+        padding: 3px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .contact-form button{
+        cursor: pointer;
+        width: 10rem;
+        padding: 10px;
+        color: white;
+        background-color: rgb(13 13 25);
+    }
+    .contact-form input{
+        padding: 5px;
+        width: 25rem;
+        border-radius: 5px;
+    }
+</style>
+<body>
+    <header>
+        <h1>Anshu's Portfolio</h1>
+        <p>First-Year B.Tech in Computer Science Engineering</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hi, I'm Anshu, a first-year B.Tech student in Computer Science and Engineering at IIIT Bhagalpur. Passionate about web development, I am working towards becoming a full-stack developer with experience in HTML, CSS, and programming fundamentals.</p>
+    </section>
+<!-- Skills Section -->
+<section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill-item">
+            <img src="html.png" alt="HTML Logo" width="50">
+            <p>HTML</p>
+        </div>
+        <div class="skill-item">
+            <img src="css-logo.png" alt="CSS Logo" width="50">
+            <p>CSS</p>
+        </div>
+        <div class="skill-item">
+            <img src="python logo.png" alt="Python Logo" width="50">
+            <p>Python</p>
+        </div>
+        <div class="skill-item">
+            <img src="C logo.png" alt="C Logo" width="50">
+            <p>C</p>
+        </div>
+        <div class="skill-item">
+            <img src="C++ logo.png" alt="C++ Logo" width="50">
+            <p>C++</p>
+        </div>
+    </div>
+</section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects">
+        <div class="project-item">
+            <h3>Gym Website</h3>
+            <p>A multi-page website showcasing gym services, created using HTML and CSS.</p>
+        </div>
+        <div class="project-item">
+            <h3>Food Delivery Website</h3>
+            <p>An online food delivery website with an intuitive UI for exploring menus and placing orders, built with HTML and CSS.</p>
+        </div>
+        <div class="project-item">
+            <h3>Portfolio Website</h3>
+            <p>This personal portfolio site showcases my skills and projects, developed using HTML and CSS.</p>
+        </div>
+    </div>
+    </section>
+    <section class="fourth">
+        <h2>Unnati Walfare Society</h2>
+        <p>At UNNATI WELFARE
+            SOCIETY, we are dedicated to
+            bridging the digital divide by
+            providing underprivileged students
+            with essential technology education
+            and basic knowledge. Our mission
+            is to empower these young minds,
+            equipping them with the skills and
+            confidence needed to excel in the
+            digital age.</p>
+        <img src="unnati.jpg"  width="320em" height="320em">
+        <img src="unnati2.jpg" width="320em" height="320em">
+       <a href="https://www.instagram.com/reel/DBdNUtBy3CV/?igsh=cjBhdzdsZGxqZjNo">unnati welfare society</a>
+
+    </section>
+    <section class="college">
+        <h2>College</h2>
+        <img src="iiitbh logo.png" width="320em" height="320em">
+        <img src="campus.jpg " width="320em" height="320em" alt="">
+        <a href="https://www.iiitbh.ac.in/">For more details</a>
+
+    </section>
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Anshu's Portfolio.All rights reserved.</p>
+        <p>Email: <a href="anshu.240101154@iiitbh.ac.in">anshu.240101154@iiitbh.ac.in</a> |LinkedIn: <a href="https://www.linkedin.com/in/anshu-kumari-895370317/">LinkedIn</a></p>
+        
+    </footer>
+</body>
+</html>
